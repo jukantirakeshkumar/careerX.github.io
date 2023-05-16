@@ -1,0 +1,265 @@
+/*navbar*/
+.nav-item{
+  padding:0px 20px;
+  color:white !important;
+}
+.navbar-nav{
+  padding-right: 50px;
+}
+.navbar-brand{
+  padding-left: 30px;
+}
+.navbar{
+  height: 80px;
+  background-color: black !important;
+}
+.dropdown-menu{
+  width:168px;
+  height:154px;
+}
+.navbar-nav,.nav-link,.nav-item,.navbar-brand{
+  color: white !important;
+}
+
+.btn-outline-light {
+  position: relative;
+  animation: shining 5s infinite;
+}
+
+@keyframes shining {
+  0% {
+    box-shadow: none;
+  }
+  50% {
+    box-shadow: 0 0 10px 5px white;
+  }
+  100% {
+    box-shadow: none;
+  }
+}
+
+
+/*blackbox*/
+#blackbox{
+  background-image: linear-gradient(#003A70,black);
+  padding-top: 50px;
+}
+
+.box {
+  height: 302px;
+  background-color: black;
+  border-radius: 25px;
+  border:1.5px solid white;
+
+}
+
+
+/*activities*/
+#activities{
+  background-image: linear-gradient(black,#003A70);
+  height: 30rem;
+ color:white;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 48%;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.card-img-top {
+  width: 350px;
+  margin-right: 5px;
+  border-radius: 20px;
+}
+
+.card-body {
+  flex: 1;
+}
+
+.card-body h5 {
+  margin-bottom: 10px;
+}
+
+.card-body p {
+  margin-bottom: 20px;
+}
+
+.card-body a {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .card {
+    width: 100%;
+  }
+}
+
+
+
+/*workshops,meetup*/
+#workshops .card{
+
+  width:17rem;
+  height:17rem;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+
+}
+#meetups .card{
+  width:17rem;
+  height:17rem;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+
+}
+.workshop-heading, .meetup-heading, .club-heading, .activity-heading{
+  padding-left: 105px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+
+}
+#workshops{
+  background-image: linear-gradient(#003A70,black);
+  padding-top: 100px;
+}
+
+#meetups{
+  height:30rem;
+  background-image: linear-gradient(black,#003A70,black);
+  color: white;
+}
+
+
+
+/*club*/
+#club{
+  height:30rem;
+ background-color: black;
+ color:white;
+}
+#club .card{
+  width:23.3rem;
+  height:16.5rem;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+#club .card-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+#club .card-img-top{
+  width:77px;
+  height:78px;
+}
+.container-fluid{
+  padding: 2% 15%;
+}
+h2{
+  text-align: right;
+}
+.person-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.person-image {
+  flex: 0 0 20%; /* Adjust value to control image width */
+  margin-right: 35px; /* Adjust value to control spacing between image and details */
+}
+
+.person-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin:20px;
+}
+
+.person-details {
+  flex: 1;
+}
+
+.person-name {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.person-title {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.person-content {
+  margin-top: 10px;
+}
+
+.section-divider{
+  background-color: white;
+  padding-bottom: 1px;
+  border-bottom: 1px solid black;
+}
+
+/*footer*/
+footer{
+  height:400px;
+  background-color: black;
+  padding-top: 20px:
+}
+.text-white{
+  text-decoration: none;
+  line-height: 3rem;
+}
+.footer-image{
+  margin: 20px;
+}
+
+.footer-divider {
+  height: 1px;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.below-footer{
+  background-color: black;
+  display: inline-flex;
+  align-items: center;
+  width:100%;
+
+}
+.bfp{
+  padding-left: 40px;
+}
+.bfll{
+  padding-bottom: 17px;
+  padding-left: 400px;
+  text-decoration: none;
+  color: white;
+}
+.bflr{
+  padding-bottom: 17px;
+  padding-right: 240px;
+  padding-left: 30px;
+  text-decoration: none;
+  color: white;
+}
+.bfp{
+  color: white;
+}

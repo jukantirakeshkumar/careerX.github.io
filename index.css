@@ -1,0 +1,23 @@
+.filename-desktop-version {
+  margin: 0;
+}
+.f2h-settings,
+.filename-desktop-version-scal-container {
+  position: relative;
+}
+.f2h-settings {
+  border-radius: 4px;
+  background-color: var(--white);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 4px var(--padding-7xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 12px;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
